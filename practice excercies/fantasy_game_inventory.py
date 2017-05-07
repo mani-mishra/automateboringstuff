@@ -25,6 +25,7 @@ def display_inventory(inventory):
 
     print('Total number of items', str(total), sep=' ')
 
-display_inventory({'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow': 12})
-print('-----------------------------')
-display_inventory({'mango': 322, 'banana': 6, 'snow white': 42, 'chaaku': 1})
+if __name__ == "__main__":
+    display_inventory({'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow': 12})
+    print('-----------------------------')
+    display_inventory({'mango': 322, 'banana': 6, 'snow white': 42, 'chaaku': 1})
